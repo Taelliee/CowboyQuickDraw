@@ -3,7 +3,7 @@
 **Cowboy Shootout Simulator**  
 **Language:** C# | **Focus:** OOP, SOLID Principles, Design Patterns
 
-## 📌 Objective
+## 🎯 Objective
 Design and implement a console-based simulation of a cowboy duel. Two cowboys engage in a shootout using various weapons, ammo types, and firing modes. The system follows SOLID principles and utilizes relevant design patterns to ensure scalability and maintainability.
 
 ---
