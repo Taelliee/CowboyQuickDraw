@@ -1,11 +1,6 @@
 ﻿using CowboyQuickDraw.Chain;
 using CowboyQuickDraw.Interfaces;
 using CowboyQuickDraw.States;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using static CowboyQuickDraw.Enums;
 
 namespace CowboyQuickDraw.Models
@@ -72,7 +67,7 @@ namespace CowboyQuickDraw.Models
 
         public void TakeDamage(int amount)
         {
-            Health -= amount;
+            Health = Math.Max(0, Health - amount);
             Console.WriteLine($"{Name} took {amount} damage! Health is now {Health}.");
         }
 
